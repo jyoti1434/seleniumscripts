@@ -16,7 +16,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\91939\\Documents\\chro
 	 driver.get("https://www.gmail.com");
 	//driver.navigate().to("https://www.gmail.com");
 WebElement email= driver.findElement(By.id("identifierId"));
-email.sendKeys("singh.jyoti1434@gmail.com");
+email.sendKeys("kumari.jyoti1434@gmail.com");
 driver.findElement(By.id("identifierNext")).click();
 WebElement password = driver.findElement(By.id("password"));
 password.sendKeys("Titanic@143491");
